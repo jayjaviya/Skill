@@ -1,0 +1,85 @@
+.courses {
+    margin: 90px 0px;
+}
+
+.course_details {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    row-gap: 50px;
+    padding-top: 50px;
+    margin-bottom: 40px;
+}
+
+.course_box {
+    border: 2px solid #eeeeee7a;
+    border-radius: 10px;
+    position: relative;
+}
+
+.image_container {
+    position: relative;
+    height: 350px;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+}
+
+.course_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dark_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.course_title {
+    font-size: 20px;
+    color: #fff;
+    padding-left: 20px;
+    font-weight: 600;
+    margin-top: -50px;
+    position: relative;
+    z-index: 2;
+    padding-bottom: 23px;
+    border-bottom: 4px solid orange;
+    text-transform: capitalize;
+}
+
+.course_price_review {
+    margin: 30px 20px 20px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.course_likes_review {
+    gap: 30px;
+    display: flex;
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 0 0 10px 10px;
+    background-color: #e3e3e3;
+}
+
+.course_price {
+    font-size: 25px;
+}
+
+.course_info {
+    font-size: 20px;
+    color: #5a5a5a;
+    margin-left: 20px;
+    font-weight: 300;
+}
+
+.course_likes_review i {
+    font-size: 15px;
+    margin-right: 5px;
+    color: #5a5a5a;
+}

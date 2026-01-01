@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.login{
+    padding: 30px 0;
+    background-image:url('public/signup_img/image.png');
+    background-size: cover;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo p{
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo img{
+    margin-bottom: 5px;
+}
+
+.login_form{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+.form_detail{
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 60px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.form_detail h2{
+    font-size: 30px;
+}
+
+.form_detail h4{
+    font-size: 16px;
+    font-weight: 500;
+    color: #5a5a5a;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.form_detail input{
+    border-radius: 5px;
+    border: 2px solid #eee;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px 7rem 15px 10px;
+    margin-top: 14px;
+}
+
+.login_btn{
+    padding: 15px 50px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    background-color: #fbaa45;
+    margin-top: 30px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    border: none;
+}
+
+.login_btn:hover{
+    color: white;
+    background-color: #e88f23;
+}
+
+.form_detail p{
+    border-top: 2px solid #eee;
+    margin-top: 20px;
+    padding-top: 20px;
+    color: #5a5a5a;
+    margin-bottom: 35px;
+}
+
+.login_now{
+    color: #e88f23;
+    font-weight: 600;
+}
+
+.login_now:hover{
+    color: #e88f23;
+    border-bottom: 1px solid #e88f23;
+}
+
+.forgot_password{
+    margin-top: 30px;
+    color: #5a5a5a;
+    border-bottom: 1px solid white;
+    font-size: 15px;
+}
+
+.forgot_password:hover{
+    border-bottom: 1px solid #333;
+}
+
+.remember_me {
+    align-self: flex-start;
+    margin-top: 15px;
+    width: 100%;
+    text-align: left;
+    color: #5a5a5a;
+    font-weight: 500;
+    font-size: 15px;
+}
