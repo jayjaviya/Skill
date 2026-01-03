@@ -7,7 +7,7 @@ const Signup = () => {
     <form className="signup">
       <div className="signup_form">
         <div className="logo">
-          <img src="public/logo.png" alt="Skill Logo" height="35px" width="35px" />
+          <img src="/logo.png" alt="Skill Logo" height="35px" width="35px" />
           <p>Skill</p>
         </div>
         <div className="form_detail">
