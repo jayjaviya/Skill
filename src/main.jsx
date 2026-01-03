@@ -1,15 +1,15 @@
 import React from "react";
 import { createRoot } from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from "react-router-dom"; 
-import './assets/index.css'
-import Header from './assets/Header/Header'
-import Footer from './assets/footer/Footer'
-import Home from './assets/Homepage/Home'
-import Service from './assets/Services/Service'
-import Login from './assets/Applynow/Login'
-import Signup from './assets/Applynow/Signup'
+import './assets/index.css';
+import Header from './assets/Header/Header';
+import Footer from './assets/footer/Footer';
+import Home from './assets/Homepage/Home';
+import Service from './assets/Services/Service';
+import Login from './assets/Applynow/Login';
+import Signup from './assets/Applynow/Signup';
 import About from "./assets/About/About";
-import Contact from "./assets/contact/Contact";
+import Contact from "./assets/Contact/Contact";
 import Courses from "./assets/Courses/Courses";
 
 const root = createRoot(document.getElementById("root"));
