@@ -81,7 +81,7 @@
 ===========================================*/
 
 .service_facility{
-    background-image: url(public/services_img/service_facility.png);
+    background-image: url('/services_img/service_facility.png');
     background-size: cover;
     background-attachment: fixed;
     position: relative;

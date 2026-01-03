@@ -7,7 +7,7 @@ const Service = () => {
     <section className='Having_fun'>
         <div className='container'>
             <div className='learning_detail'>
-                <img src="public/services_img/image.png" alt="" />
+                <img src="/services_img/image.png" alt="" />
                 <div className='learning_detail_right'>
                     <h2>Having fun while learning is possible</h2>
                     <p>Lorem ipsum dolor sit amet adipisicing elit. Quae blanditiis porro facere qui impedit dolor doloribus.</p>

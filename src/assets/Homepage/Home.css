@@ -62,7 +62,7 @@ li{
     left: 0;
     right: -10rem;
     bottom: 0;
-    background-image: url('public/img-man.png');
+    background-image: url('/img-man.png');
     background-size: contain;
     background-position: right top; /* Focus on top part of image */
     background-repeat: no-repeat;
@@ -195,7 +195,7 @@ li{
 
 
 .autoplay_counter{
-    background-image: url('public/counter_img/image.png');
+    background-image: url('/counter_img/image.png');
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -362,7 +362,7 @@ li{
     ===========================================*/
 
 .start_business {
-    background-image: url('public/bussiness_lady/image.png');
+    background-image: url('/bussiness_lady/image.png');
     background-size: cover;
     background-position: center;
     position: relative;

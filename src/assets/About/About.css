@@ -79,7 +79,7 @@
 
 
 .autoplay_counter{
-    background-image: url(public/counter_img/image.png);
+    background-image: url('/counter_img/image.png');
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -136,7 +136,7 @@
 ===========================================*/
 
 .contact{
-    background-image: url('public/join_us_img/image.png');
+    background-image: url('/join_us_img/image.png');
     background-size: cover;
     background-attachment: fixed;
     position: relative;
