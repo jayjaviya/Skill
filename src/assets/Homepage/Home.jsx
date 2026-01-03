@@ -127,7 +127,7 @@ const Home = () => {
             </div>
             <div className="teach_box">
               <div className="box_detail">
-                <img src="public/detail_img/img1.png" alt="Join Community" />
+                <img src="/detail_img/img1.png" alt="Join Community" />
                 <div className="detail_rigth_side">
                   <h4>Step 01</h4>
                   <h2>Join Community</h2>
@@ -136,7 +136,7 @@ const Home = () => {
               </div>
 
               <div className="box_detail">
-                <img src="public/detail_img/img2.png" alt="Learning" />
+                <img src="/detail_img/img2.png" alt="Learning" />
                 <div className="detail_rigth_side">
                   <h4>Step 02</h4>
                   <h2>Learning</h2>
@@ -145,7 +145,7 @@ const Home = () => {
               </div>
 
               <div className="box_detail">
-                <img src="public/detail_img/img3.png" alt="Get the Best Job" />
+                <img src="/detail_img/img3.png" alt="Get the Best Job" />
                 <div className="detail_rigth_side">
                   <h4>Step 03</h4>
                   <h2>Get the Best Job</h2>
@@ -154,7 +154,7 @@ const Home = () => {
               </div>
 
               <div className="box_detail">
-                <img src="public/detail_img/img4.png" alt="Community" />
+                <img src="/detail_img/img4.png" alt="Community" />
                 <div className="detail_rigth_side">
                   <h4>Step 04</h4>
                   <h2>Community</h2>
@@ -205,7 +205,7 @@ const Home = () => {
             <div className="program_all_boxes">
               <div className="program_box">
                 <div className="box_icon">
-                  <img src="public/program_box_img/box-img1.png" alt="Group Seminars" />
+                  <img src="/program_box_img/box-img1.png" alt="Group Seminars" />
                 </div>
                 <h2 className="program_box_title">Group Seminars</h2>
                 <p className="program_box_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In itaque vel libero.</p>
@@ -234,7 +234,7 @@ const Home = () => {
 
               <div className="program_box">
                 <div className="box_icon">
-                  <img src="public/program_box_img/box-img2.png" alt="Trending Courses" />
+                  <img src="/program_box_img/box-img2.png" alt="Trending Courses" />
                 </div>
                 <h2 className="program_box_title">Trending Courses</h2>
                 <p className="program_box_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In itaque vel libero.</p>
@@ -264,7 +264,7 @@ const Home = () => {
 
               <div className="program_box">
                 <div className="box_icon">
-                  <img src="public/program_box_img/box-img3.png" alt="Large Library" />
+                  <img src="/program_box_img/box-img3.png" alt="Large Library" />
                 </div>
                 <h2 className="program_box_title">Large Library</h2>
                 <p className="program_box_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In itaque vel libero.</p>
@@ -294,7 +294,7 @@ const Home = () => {
 
               <div className="program_box">
                 <div className="box_icon">
-                  <img src="public/program_box_img/box-img4.png" alt="Expert Teachers" />
+                  <img src="/program_box_img/box-img4.png" alt="Expert Teachers" />
                 </div>
                 <h2 className="program_box_title">Expert Teachers</h2>
                 <p className="program_box_text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. In itaque vel libero.</p>
@@ -350,7 +350,7 @@ const Home = () => {
                 <div className="swiper-slide">
                   <div className="review_detail">
                     <div className="review_img">
-                      <img src="public/student_img/img1.png" alt="Student" />
+                      <img src="/student_img/img1.png" alt="Student" />
                     </div>
                     <div className="review_right">
                       <i className="fa-solid fa-quote-left"></i>
@@ -365,7 +365,7 @@ const Home = () => {
                 <div className="swiper-slide">
                   <div className="review_detail">
                     <div className="review_img">
-                      <img src="public/student_img/img2.png" alt="Student" />
+                      <img src="/student_img/img2.png" alt="Student" />
                     </div>
                     <div className="review_right">
                       <i className="fa-solid fa-quote-left"></i>
@@ -380,7 +380,7 @@ const Home = () => {
                 <div className="swiper-slide">
                   <div className="review_detail">
                     <div className="review_img">
-                      <img src="public/student_img/img3.png" alt="Student" />
+                      <img src="/student_img/img3.png" alt="Student" />
                     </div>
                     <div className="review_right">
                       <i className="fa-solid fa-quote-left"></i>
@@ -395,7 +395,7 @@ const Home = () => {
                 <div className="swiper-slide">
                   <div className="review_detail">
                     <div className="review_img">
-                      <img src="public/student_img/img4.png" alt="Student" />
+                      <img src="/student_img/img4.png" alt="Student" />
                     </div>
                     <div className="review_right">
                       <i className="fa-solid fa-quote-left"></i>
@@ -429,7 +429,7 @@ const Home = () => {
             </div>  
           </div>
           <div className="join_us_right">
-            <img src="public/join_us_img/image.png" alt="Join Us" />
+            <img src="/join_us_img/image.png" alt="Join Us" />
           </div>
         </div>
       </section>
